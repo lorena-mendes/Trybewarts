@@ -12,9 +12,21 @@
 .inputsStyle {
   border-radius: 4px;
   border: none;
-  height: 40px;
+  height: 30px;
   text-align: center;
   margin: 0 5px;
+}
+
+button {
+  border-radius: 4px;
+  border: none;
+  height: 32px;
+  min-width: 80px;
+  margin-right: 40px;
+}
+
+button:hover {
+  background-color: rgb(244, 238, 215);
 }
 
 #evaluation-form {
@@ -26,18 +38,39 @@
 #main {
   display: flex;
   background: rgb(204, 204, 204);
+  height: 560px;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
+  padding-top: 80px;
+  padding-left: 90px;
 }
 
 .containerform {
   display: flex;
+  flex-flow: row wrap;
 }
 
 #evaluation-form .inputsStyle {
   margin: 10px;
   flex-flow: row nowrap;
   width: 300px;
+}
+
+#label-family {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  text-align: center;
+}
+
+#trybewarts-header-title {
+  color: white;
+}
+
+.trybewarts-header-logo {
+  height: 60px;
 }
