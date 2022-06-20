@@ -16,3 +16,28 @@
   text-align: center;
   margin: 0 5px;
 }
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+#main {
+  display: flex;
+  background: rgb(204, 204, 204);
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+.containerform {
+  display: flex;
+}
+
+#evaluation-form .inputsStyle {
+  margin: 10px;
+  flex-flow: row nowrap;
+  width: 300px;
+}
