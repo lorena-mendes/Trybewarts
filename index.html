@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,21 @@
   <link rel="stylesheet" href="style.css">
   <title>TrybeWarts - Lorena e Aline</title>
 </head>
-<body>
-  <header class="header">
-    <img src="images/trybewarts-header-logo.svg" alt="" class="trybewarts-header-logo">
 
-  </header>
-<script src="script.js"></script>    
+<body>
+  <div class="container">
+    <header class="header">
+      <img src="images/trybewarts-header-logo.svg" alt="" class="trybewarts-header-logo">
+      <h1 id="trybewarts-header-title">Trybewarts</h1>
+      <form action="" class="trybewarts-login" id="myForm">
+        <input type="email" id="email" placeholder="Email" name="email" class="inputsStyle">
+        <input type="password" id="password" name="password" placeholder="Senha" class="inputsStyle">
+        <button type="submit" id="submit">Entrar</button>
+      </form>
+    </header>
+    <footer class="footer">Direitos reservados à Trybewarts©</footer>
+  </div>
+  <script src="script.js"></script>
 </body>
+
 </html>
