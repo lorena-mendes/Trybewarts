@@ -7,12 +7,12 @@
 }
 
 body {
-  background-color: #545454;
+  background-color: #ce7e00;
 }
 
 .header {
   display: flex;
-  background-color: #1a2b2b;
+  background-color: #641e1e;
   justify-content: space-between;
   align-items: center;
   font-family: 'MedievalSharp', cursive;
@@ -70,7 +70,7 @@ button:hover {
 
 #trybewarts-forms-logo {
   height: 500px;
-  padding-top: 200px;
+  padding-top: 100px;
   padding-left: 90px;
   position: relative;
 }
@@ -100,10 +100,9 @@ button:hover {
 
 .footer {
   text-align: center;
-  position: absolute;
+  position:relative;
   bottom: 0;
   width: 100%;
-  /* height: 2.5rem; */
   color: white;
 }
 
@@ -167,9 +166,9 @@ button:hover {
 
 .form-data {
   display: flex;
-  /* margin: 50px; */
+  margin: 10px;
   margin-left: 50px;
-  margin-top: 100px;
+  margin-top: 50px;
   border-radius: 5px;
   box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.76),-2px -2px 10px 0px rgba(167, 167, 167, 0.15);
   flex-direction: column;
