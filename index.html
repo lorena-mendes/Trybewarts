@@ -22,6 +22,7 @@
     </header>
     <main id="main">
       <form action="" id="evaluation-form">
+        <h1>Formulário de Avaliação</h1>
         <div class="containerform">
           <input type="text" id="input-name" class="inputsStyle" placeholder="Nome">
           <input type="text" id="input-lastname" class="inputsStyle" placeholder="Sobrenome">
@@ -35,22 +36,22 @@
               <option value="Pytherina" id="pytherina-house">Pytherina</option>
             </select>
           </label>
-          <div>
-            <label for="" id="label-family">Qual sua família?</label>
-            <label for="family-frontend">
-              <input type="radio" name="family" id="family-frontend" value="Frontend">Frontend
-            </label>
-            <br>
-            <label for="family-backend">
-              <input type="radio" name="family" id="family-backend" value="Backend">Backend
-            </label>
-            <br>
-            <label for="family-fullstack">
-              <input type="radio" name="family" id="family-fullstack" value="FullStack">FullStack
-            </label>
-          </div>
         </div>
-        <div>
+        <div class="div-family">
+          <label for="" id="label-family">Qual sua família?</label>
+          <label for="family-frontend">
+            <input type="radio" name="family" id="family-frontend" value="Frontend">Frontend
+          </label>
+          <br>
+          <label for="family-backend">
+            <input type="radio" name="family" id="family-backend" value="Backend">Backend
+          </label>
+          <br>
+          <label for="family-fullstack">
+            <input type="radio" name="family" id="family-fullstack" value="FullStack">FullStack
+          </label>
+        </div>        
+        <div class="div-stacks">
           <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
           <br>
           <label for="hofs">
@@ -72,7 +73,7 @@
             <input type="checkbox" class="subject" value="Python" name="materia" id="python">Python
           </label>
         </div>
-        <div>
+        <div class="div-avaliation">
           <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
           <br>
           <label for="um">
@@ -106,20 +107,20 @@
             <input type="radio" name="rate" id="dez" value="10">10
           </label>
         </div>
-        <div>
+        <div class="div-textarea">
           <label for="textarea" class="textarea">Deixe seu comentário:</label><br>
-          <textarea name="comentario" id="textarea" cols="30" rows="10" maxlength="500"></textarea>
+          <textarea name="comentario" id="textarea" cols="75" rows="4" maxlength="500"></textarea>
           <p type="text" id="counter">500</p>
         </div>
-        <div>
+        <div class="div-agreement">
           <label for="agreement" id="label-infos">
             <input type="checkbox" name="agreement" value="true" id="agreement">Você concorda com o uso das informações
             acima?
           </label>
-        </div>
-        <button type="submit" id="submit-btn" class="inputsStyle">Enviar</button>
+          <button type="submit" id="submit-btn" class="inputsStyle">Enviar</button>
+        </div>        
       </form>
-      <form action="" id="form-data">
+      <form action="" id="form-data" class="form-data">
         <p id="print-name"></p>
         <p id="print-email"></p>
         <p id="print-casa"></p>
@@ -134,5 +135,4 @@
   </div>
   <script src="script.js"></script>
 </body>
-
 </html>
